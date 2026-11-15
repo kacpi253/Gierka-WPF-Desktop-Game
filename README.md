@@ -19,7 +19,14 @@ A rich, interactive desktop game application built using **C#** and **WPF (Windo
 * **Language:** C# 12.0
 * **Framework:** WPF (.NET 8.0)
 * **Database:** SQLite & Entity Framework Core
-* **Testing:** xUnit / NUnit (Gierka.Tests)
+* **Testing:** xUnit (Gierka.Tests)
+
+## 👤 My Role & Contributions
+
+This application was developed as a team project. My key individual contributions included:
+* **[TODO: wpisz swój moduł]** - [TODO: krótki opis odpowiedzialności, np. implementacja logiki gry w Blackjacka oraz powiązanych testów jednostkowych w xUnit]
+* **[TODO: wpisz swój moduł]** - [TODO: krótki opis odpowiedzialności, np. projektowanie i stylowanie kontrolek widoków XAML oraz integracja z MediaManagerem]
+* **[TODO: wpisz swój moduł]** - [TODO: krótki opis odpowiedzialności, np. konfiguracja bazy danych SQLite oraz integracja Entity Framework Core z serwisami gry]
 
 ## 🚀 How to Run
 
@@ -38,8 +45,8 @@ This project was proudly created as a collaborative effort by a team of 3 studen
 
 ## 📸 Screenshots
 
-<img src="ZrzutyZGierki/Menu.png" width="600" alt="Main Menu">
-<br><br>
-<img src="ZrzutyZGierki/MainLobby.png" width="600" alt="Main Lobby">
-<br><br>
-<img src="ZrzutyZGierki/Kasyno.png" width="600" alt="Casino">
+![Main Menu](ZrzutyZGierki/Menu.png)
+
+![Main Lobby](ZrzutyZGierki/MainLobby.png)
+
+![Casino](ZrzutyZGierki/Kasyno.png)
