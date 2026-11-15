@@ -23,10 +23,11 @@ A rich, interactive desktop game application built using **C#** and **WPF (Windo
 
 ## 👤 My Role & Contributions
 
-This application was developed as a team project. My key individual contributions included:
-* **[TODO: wpisz swój moduł]** - [TODO: krótki opis odpowiedzialności, np. implementacja logiki gry w Blackjacka oraz powiązanych testów jednostkowych w xUnit]
-* **[TODO: wpisz swój moduł]** - [TODO: krótki opis odpowiedzialności, np. projektowanie i stylowanie kontrolek widoków XAML oraz integracja z MediaManagerem]
-* **[TODO: wpisz swój moduł]** - [TODO: krótki opis odpowiedzialności, np. konfiguracja bazy danych SQLite oraz integracja Entity Framework Core z serwisami gry]
+In this collaborative 3-person team project, I was responsible for architecting and implementing several core backend and gameplay modules:
+* **Database Layer & Data Persistence:** Designed the relational schema and configured Entity Framework Core with SQLite (`GierkaDbContext`, EF Core migrations). Implemented game state serialization/deserialization (`GameSave`, `GameService`) and player ranking persistence (`RankingManager`).
+* **Authentication & User Management:** Built the complete user authentication, registration, and session lifecycle system (`AuthService`, `SessionContext`, `User`), along with the interactive WPF login and registration user control (`LoginControl.xaml`).
+* **Casino & Minigames Mechanics:** Implemented the mathematical and game logic for the casino module: Blackjack (`BlackjackLogika.cs`), Roulette (`RuletkaLogika.cs`), and the Slot Machine (`JednorekiGierek.cs`), integrating them with dedicated XAML views and betting mechanics.
+* **Code Refactoring & Testing:** Developed automated unit and component test suites using xUnit (`RuletkaLogikaTests.cs`, `ComponentTests.cs`), fixed state edge cases, and ensured reliable error handling between UI controls and the domain core.
 
 ## 🚀 How to Run
 
